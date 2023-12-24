@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    height: 80px;
+}
+
+.logo1 {
+    margin-left: 10px;
+    height: 80px;
+}
+
+.navbar {
+    background-color: #00008b;
+}
+
+.icon {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    color: #ffffff;
+}
+
+#navItem1 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem6 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+@media(max-width:768px) {
+
+    .mlsc-image {
+        height: 300px;
+        width: 100%;
+        margin-top: 130px;
+        border-radius: 10px;
+    }
+
+    .mlsc-description-section {
+        background-color: black;
+        width: 100vw;
+    }
+
+    .mlsc-description {
+        color: #ffffff;
+        font-family: Bree serif;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main-heading {
+        color: #0000ff;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Bree serif;
+    }
+
+    .main-heading1 {
+        color: #0000ff;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Bree serif;
+    }
+
+    .special-description {
+        font-family: Bree serif;
+        font-size: 25px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .goal {
+        font-family: "Roboto";
+        color: #00bfff;
+        text-align: center;
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .goal-description {
+        font-family: Bree serif;
+        font-size: 12px;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .goal-image {
+        height: 100px;
+        text-align: center;
+    }
+
+    .goals-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .footer-section {
+        background-color: #00008b;
+
+
+    }
+
+    .list-item {
+        margin-top: 10px;
+        color: #ffffff;
+        font-family: "Roboto";
+    }
+
+    .social-media-box {
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Roboto";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end-description {
+        text-align: center;
+        color: #ffffff;
+        font-family: "Roboto";
+        margin-top: 15px;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media (min-width:992px) {
+    .chapter-card {
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
+    }
+
+    .mlsc-image {
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .main-heading {
+        color: #0000ff;
+
+        text-align: center;
+        font-family: Bree serif;
+    }
+
+    .mlsc-description {
+
+        font-family: Bree serif;
+        text-align: center;
+
+    }
+
+    .main-heading1 {
+        color: #0000ff;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Bree serif;
+    }
+
+    .about-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .special-description {
+        font-family: Bree serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .about-image {
+        width: 380px;
+        height: 220px;
+
+    }
+
+    .about-special-card {
+        border-radius: 15px;
+    }
+
+    .goal-image {
+        height: 100px;
+
+    }
+
+    .goals-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .goals-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .goal-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        width: 750px;
+
+        margin-left: 20px;
+    }
+
+    .goal {
+        font-family: "Roboto";
+        color: #00bfff;
+        text-align: center;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .goal-description {
+        font-family: Bree serif;
+        font-size: 20px;
+
+        text-align: center;
+
+    }
+
+    .footer-section {
+        background-color: #00008b;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .social-media-box {
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Roboto";
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .list-item {
+        margin-top: 10px;
+        color: #ffffff;
+        font-family: "Roboto";
+    }
+
+    .end-description {
+        text-align: center;
+        color: #ffffff;
+        font-family: "Roboto";
+        margin-top: 15px;
+    }
+
+    .logo1 {
+        margin-top: 10px;
+        height: 80px;
+    }
+
+
+
+}
